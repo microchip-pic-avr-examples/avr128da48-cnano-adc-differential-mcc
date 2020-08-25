@@ -9,7 +9,7 @@ In this application, the ADC is configured to convert data from a differential i
 
 ## Related Documentation
 
-- Training manual link (TBD)
+- [Differential ADC Using the AVR128DA48 Curiosity Nano](http://ww1.microchip.com/downloads/en/DeviceDoc/AVR-DA-Training-Manual-Differential-ADC-Using-the-AVR128DA48-Curiosity-Nano-DS40002244A.pdf)
 - [AVR128DA48 Product Family Page](https://www.microchip.com/design-centers/8-bit/avr-mcus/device-selection/avr-da)
 - [AVR128DA48 Data Sheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40002183A.pdf)
 

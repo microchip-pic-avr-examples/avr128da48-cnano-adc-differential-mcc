@@ -31,15 +31,15 @@
 */
 int main(void)
 {
-    diff_adc_result_t adcVal_12b;
+    diff_adc_result_t adcVal;
 /* Initializes MCU, drivers and middleware */
     SYSTEM_Initialize();
     while (1)
     {
-    adcVal_12b = ADC0_GetDiffConversion(ADC_MUXPOS_AIN3_gc, ADC_MUXNEG_AIN4_gc);
+    adcVal = ADC0_GetDiffConversion(ADC_MUXPOS_AIN3_gc, ADC_MUXNEG_AIN4_gc);
     USART1_Write(START_TOKEN);
-    USART1_Write(adcVal_12b & 0x00FF);
-    USART1_Write(adcVal_12b >> 8);
+    USART1_Write(adcVal & 0x00FF);
+    USART1_Write(adcVal >> 8);
     USART1_Write(END_TOKEN);
     }
 }
