@@ -46,8 +46,8 @@
             "ADC"
         ],
         "keywords": [
-            "bare-metal",
-        ],
+            "Bare metal",
+        ]
 		"additionalData": {
 			"longDescription": {
 				"metaDataVersion": "1.0.0",
