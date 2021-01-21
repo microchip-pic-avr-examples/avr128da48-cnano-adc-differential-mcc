@@ -39,7 +39,8 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "ADC"
+               "Peripherals",
+			   "ADC"
             ]         			
         ],
         "peripherals": [
@@ -47,7 +48,7 @@
         ],
         "keywords": [
             "Bare metal",
-        ]
+        ],
 		"additionalData": {
 			"longDescription": {
 				"metaDataVersion": "1.0.0",
