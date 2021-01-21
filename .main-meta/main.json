@@ -4,12 +4,12 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.avr128da48-cnano-adc-differential-mcc",
-        "version": "1.0.1",
-        "displayName": "AVR128DA48 ADC Differential Conversion",
+        "version": "1.0.2",
+        "displayName": "ADC Differential Conversion",
         "projectName": "avr128da48-cnano-adc-differential-mcc",
         "shortDescription": "This application showcases the differential-conversion feature of the AVR-DA ADC.",
         "ide": {
-            "name": "MPLABX",
+            "name": "MPLAB X",
             "semverRange": ">=5.40.0"
         },
         "compiler": [
@@ -23,7 +23,7 @@
             "semverRange": "^1.1.40"
         },
         "configurator": {
-            "name": "",
+            "name": "N/A",
             "semverRange": ""
         },
         "device": {
@@ -38,21 +38,15 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "MCC",
             [
                "Peripherals", "ADC"
-            ],
-            [
-               "Peripherals", ""
-            ]            			
+            ]         			
         ],
         "peripherals": [
-            "",""
+            "ADC"
         ],
         "keywords": [
             "bare-metal",
-            "adc",
-            "differential conversion"
         ],
 		"additionalData": {
 			"longDescription": {
